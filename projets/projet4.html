@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="images\photo_moi.jpg"/>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio de Clément Bertin</title>
+</head>
+<body>
+    <header>
+    <h1>Mon Portfolio</h1>
+    <h5>Cliquer sur la section vous intéressant</h5>
+    <ul>
+        <li><a title="même page, le lien fait descendre à la section présentation" href="#presentation" class="lien"> Ma présentation</a></li>
+        <li><a title="même page, le lien fait descendre à la section contact" href="#infocontact" class="lien"> Comment me contacter ?</a></li>
+        <li><a title="même page, le lien fait descendre à la section localisation" href="#localisation" class="lien"> Où je me trouve ?</a></li>
+        <li><a title="même page, le lien fait descendre à la section à propos" href="#apropos" class="lien"> A propos de moi</a></li>
+        <li><a title="même page, le lien fait descendre à la section CV" href="#moncv" class="lien"> Mon CV</a></li>
+        <li><a title="même page, le lien fait descendre à la section Formulaire contact" href="#formulairecontact" class="lien">Formulaire de contact</a></li>
+        <li><a title="même page, le lien fait descendre à la section blog" href="#blog" class="lien">Mon Blog</a></li>
+    </ul>
+    </header>
+    <main>
+        <section id="presentation">
+            <h3> Qui je suis ?</h3>
+            <div>Je m'appelle Clément Bertin et voilà ce à quoi je ressemble : </div>
+            <img src="images\photo_moi.jpg" alt="Une photo prise me représentant, cheveux mi-longs bruns et j'ai des lunettes" width="19%"/>
+        </section>
+
+
+
+        <section id="apropos">
+                <h3> A propos de moi :</h3>
+                <h4>Mes hobbys :</h4>
+                <ul>
+                    <li>La lecture</li>
+                    <li>Les jeux vidéos</li>
+                    <li>La musique</li>
+                </ul>
+        </section>
+
+        <section id="moncv">
+            <h3>Mon CV :</h3>
+            <div id="tableaucv">
+            <table>
+                <thead>
+                    <tr>
+                        <th colspan="2">Ma frise de scolarité</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th>Année</th>
+                        <th>scolarité</th>
+                    </tr>
+                    <tr>
+                        <td>2020-2021</td>
+                        <td>Année de Seconde<br/>Options chinois, DNL maths et Sciences de l'ingénieur </td>
+                    </tr>
+                    <tr>
+                        <td>2021-2022</td>
+                        <td>Année de Première générale<br/> Spécialités maths physique et NSI<br/> Options chinois, maths expertes et DNL maths</td>
+                    </tr>
+                    <tr>
+                        <td>2022-2023</td>
+                        <td>Année de Terminale générale<br/> Spécialités mathématiques et NSI <br/> Options chinois, maths expertes et DNL maths<br/>Obtention du baccalauréat mention très bien</td>
+                    </tr>
+                </tbody>
+            </table>
+            <div>
+            <h4>Mes expériences :</h4>
+            <dl>
+                <dt>Année 2019-2020 :</dt>
+                <dd>Stage d'observation dans l'entreprise Netease, Saint-Nicolas 62223.</dd>
+                <dt>Année 2020-2021 :</dt>
+                <dd>Stage d'observation dans l'entreprise Amipro, Beaurains 62217. </dd>
+                <dt>Année 2021-2022 :</dt>
+                <dd>Participation avec le lycée à la nuit du code (en python) en trio.</dd>
+                <dt>Année 2022-2023 :</dt>
+                <dd>Participation à la nuit du code (en python) avec le lycée en duo,<br/> nous avons fini parmi les meilleurs participants selon les résultats.</dd>
+            </dl>
+            </div>
+            <div>
+            <h4>Mes compétences :</h4>
+            <ul>
+                <li>Maîtrise du codage en python</li>
+                <li>Maîtrise des bases du langage HTML</li>
+                <li>Maîtrise des bases du langage SQL</li>
+                <li>Certification européenne au baccalauréat</li>
+                <li>Maîtrise de la langue anglaise</li>
+                <li>Autonomie</li>
+                <li>Travail en équipe</li>
+            </ul>
+            </div>
+            </div>
+        </section>
+
+        <section id="formulairecontact">
+            <h3>Formulaire de contact :</h3>
+            <form action="https://api.web3forms.com/submit" method="post">
+                <div>
+                    <input type="hidden" name="access_key" value="f9f208ac-bc9a-4dda-87dc-26bca387293a">
+                </div>
+                <div>
+                    <input type="text" name="name" placeholder="Nom et Prénom" required/>
+                    <label for="name"></label>
+                </div>
+                <div>
+                    <input type="email" name="email" placeholder="Adresse mail" required/>
+                    <label for="email"></label>
+                </div>
+                <div>
+                    <input type="tel" name="numéro" placeholder="Numéro de téléphone" required/>
+                    <label for="numéro"></label>
+                </div>
+                <div>
+                    <input  type="checkbox" name="checkbox_recontact" value="checkbox_recontact" required/>
+                    <label for="checkbox_recontact">J'accepte d'être recontacté</label>
+                </div>
+                <div>
+                    <input name="Message" id="message" />
+                    <label for="message">Vous pouvez, si vous le souhaitez, laisser un message</label>
+                </div>
+                <div>
+                    <input type="submit" value="Envoyer">
+                </div>
+            </form>
+        </section>
+
+        <section id="blog" class="grid">
+            <h3 class="triplecolonne">Mon Blog</h3>
+            <h4 class="triplecolonne">Articles Récents</h4>
+            <div>
+                <img class="image_centre" src="images/londres.jpg" alt="Une imagepour présenter l'article du blog. Une image pour représenter londres il y a une cabine téléphonique deux doubledecker bus un morceau du drapeau du royaume uni et la palais de Westminster" width="50%"/>
+                <figcaption>La meilleure destination de Londres</figcaption>
+                <span ><a title="lien permettant d'accéder au premier article" href="Articles_proj4/Article1.html" class="lien"> Découvrir dans le premier article</a></span>                    
+            </div>
+            <div>
+                <img class="image_centre" src="images/lorem ipsum.jpg" alt="Une imagepour présenter l'article du blog. Une image pour le lorem ipsum, il y a juste écrit 'lorem ipsum' sur l'image" width="50%"/>
+                <figcaption>Le lorem ipsum</figcaption>
+                <span><a title="lien permettant d'accéder au deuxième article" href="Articles_proj4/Article2.html" class="lien"> Découvrir dans le deuxième article</a></span>            
+            </div>
+            <div>
+                <img class="image_centre" src="images/lunette.jpg" alt="Une imagepour présenter l'article du blog. Une photo de paire de lunettes avec deux branches fines et des cercles fins autour des verres" width="50%"/>
+                <figcaption>Les lunettes</figcaption>
+                <span><a title="lien permettant d'accéder au troisième article" href="Articles_proj4/Article3.html" class="lien"> Découvrir dans le troisième article</a></span>
+            </div>
+        </section>
+    </main>
+    <a title="même page, le lien fait monter tout en haut de la page" href="#"> 
+        <img  src="images\fleche-haut.jpg" width="9%" aria-hidden="true" id="retour"/>
+    </a>
+    <footer >
+        <div id="localisation">
+            <div> <h3>Ma localisation :</h3></div>
+            <ul>
+                <li>7 Rue Schepers, 59000, Lille</li>
+                <li>12 Rue du 11 Novembre, 62121, Moyenneville</li>
+            </ul>
+        </div>
+        <div id="infocontact">
+        <h3>Me contacter :</h3>
+        <h5>Par téléphone au 06/50/57/15/57 ou <br/> par mail à l'adresse : <br/>   clement.bertin1505@gmail.com</h5>
+        </div>
+    </footer>
+</body>
+</html>

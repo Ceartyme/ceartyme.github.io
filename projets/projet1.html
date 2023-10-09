@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="images\photo_moi.jpg"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio de Clément</title>
+</head>
+<body>
+    <header>
+    <h1>Mon Portfolio</h1>
+    <ul>
+        <li><a href="#presentation"> Ma présentation</a></li>
+        <li><a href="#infocontact"> Comment me contacter ?</a></li>
+        <li><a href="#localisation"> Où je me trouve ?</a></li>
+        <li><a href="#apropos"> A propos de moi</a></li>
+        <li><a href="#moncv"> Mon CV</a></li>
+        <li><a href="#formulairecontact">Formulaire de contact</a></li>
+    </ul>
+    </header>
+    <hr/>
+   
+        <section id="presentation">
+            <h4> Qui je suis ?</h4>
+            <div>Je m'appelle Clément Bertin et voilà ce à quoi je ressemble : </div>
+            <img src="images\photo_moi.jpg" alt="Une photo prise me représentant" width="250"/>
+        </section>
+
+        <section id="localisation">
+            <div> <b>Ma localisation :</b></div>
+            <ul>
+                <li>7 Rue Schepers, 59000, Lille</li>
+                <li>12 Rue du 11 Novembre, 62121, Moyenneville</li>
+            </ul>
+        </section>
+
+        <section id="apropos">
+                <h4> A propos de moi :</h4>
+                <h5>Mes hobbys :</h5>
+                <ul>
+                    <li>La lecture</li>
+                    <li>Les jeux vidéos</li>
+                    <li>La musique</li>
+                </ul>
+        </section>
+        
+        <section id="moncv">
+            <h4>Mon CV :</h4>
+            <table border="1">
+                <thead>
+                    <tr>
+                        <th colspan="2">Ma frise de scolarité</th>
+                    </tr>
+                    <tr>
+                        <th>Année</th>
+                        <th>scolarité</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>2021-2022</td>
+                        <td>Année de Première</td>
+                    </tr>
+                    <tr>
+                        <td>2022-2023</td>
+                        <td>Obtention du baccalauréat avec spécialités mathématiques et NSI avec options chinois, maths expertes et DNL maths</td>
+                    </tr>
+                </tbody>
+            </table>
+            <h5>Mes expériences :</h5>
+            <dl>
+                <dt>Année 2019-2020</dt>
+                <dd>Stage d'observation dans l'entreprise Netease, Saint-Nicolas 62223.</dd>
+                <dt>Année 2020-2021</dt>
+                <dd>Stage d'observation dans l'entreprise Amipro, Beaurains 62217. </dd>
+                <dt>Année 2021-2022</dt>
+                <dd>Participation avec le lycée à la nuit du code (en python) en trio.</dd>
+                <dt>Année 2022-2023</dt>
+                <dd>Participation à la nuit du code (en python) avec le lycée en duo, nous avons finis parmis les meilleurs participants selon les résultats.</dd>
+            </dl>
+            <h5>Mes compétences :</h5>
+            <ul>
+                <li>Maîtrise du codage en python</li>
+                <li>Maîtrise des bases du langage HTML</li>
+                <li>Maîtrise des bases du langage SQL</li>
+                <li>Certification européenne au baccalauréat</li>
+                <li>Maîtrise de la langue anglaise</li>
+                <li>Autonomie</li>
+                <li>Travail en équipe</li>
+            </ul>
+        </section>
+
+        <section id="formulairecontact">
+            <h4>Formulaire de contact :</h4>
+            <form>
+                <div>
+                    <label for="Name"> Nom et Prénom :</label>
+                    <input type="text" name="name" required/>
+                </div>
+                <div>
+                    <label for="email"> Adresse mail</label>
+                    <input type="email" name="email"/>
+                </div>
+                <div>
+                    <label for="numéro"> Numéro de téléphone</label>
+                    <input type="tel" name="numéro"required/>
+                </div>
+                <div>
+                    <input type="submit" value="Envoyer">
+                </div>
+            </form>
+        </section>
+
+        
+        <hr/>
+        <footer id="infocontact">
+            <h4>Me contacter :</h4>
+            <a href="#"> 
+                <img  src="images\fleche-haut.jpg" width="100" align="Right" alt="flèche pour remonter en haut"/>
+            </a>
+            <dl>
+                <dt>Par téléphone :</dt>
+                <dd>06/50/57/15/57</dd>
+                <dt>Par mail:</dt>
+                <dd>clement.bertin1505@gmail.com</dd>
+            </dl>
+        </footer>
+</body>
+</html>
