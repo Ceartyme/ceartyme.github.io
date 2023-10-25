@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css"/>
+    <title>Ecremmoce</title>
+</head>
+<body>
+    <header>
+        <a href="../page-accueil.html#" title="sur la même fenêtre : amène en haut de la page d'accueil">
+            <img src="../images/logo.png" height="80%"/></a>
+        <a href="../page-accueil.html#Catégories" class="lien_tete" id="menu_tete" title="sur la même fenêtre : amène au menu des catégories de la pages d'accueil"> Menu des Catégories</a>
+        <div id="menu_apparu">
+            <ul aria-label="liste des catégories">
+                <li id="menu-hygiene"><a href="../pages_categories/hygiène.html"  title="sur la même fenêtre : amène sur la page hygiene">Hygiène</a></li>
+                <div>                    
+                    <ul aria-label="liste des parties de la catégorie hygiene">
+                    <li><a href="../pages_categories/hygiène.html#gel-douche_shampoing" title="sur la même fenêtre : amène a la partie gel et shampoing de la page hygiène">Gel douche et Shampoing</a></li>
+                    <li><a href="../pages_categories/hygiène.html#rasage" title="sur la même fenêtre : amène à la partie rasage de la page hygiène">Rasage</a></li>
+                    </ul>
+                </div>
+                <li id="menu-jeux-video"><a href="../pages_categories/jeux_videos.html" title="sur la même fenêtre : amène sur la page jeux vidéos">Jeux Vidéo</a></li>
+                <div>
+                    <ul aria-label="liste des parties de la catégorie jeux jeux videos">
+                        <li><a href="../pages_categories/jeux_videos.html#switch" title="sur la même fenêtre : amène à la partie switch de la page jeux vidéos">Switch</a></li>
+                        <li><a href="../pages_categories/jeux_videos.html#xbox" title="sur la même fenêtre : amène à la partie xbox de la page jeux vidéos">Xbox</a></li>
+                        <li><a href="../pages_categories/jeux_videos.html#ps" title="sur la même fenêtre : amène à la partie playstation de la page jeux vidéos">Playstation</a></li>
+                    </ul>
+                </div>
+                <li id="menu-litterature"><a href="../pages_categories/litterature.html" title="sur la même fenêtre : amène a la page littérature">Littérature</a></li>
+                <div>
+                    <ul aria-label="liste des parties de la catégorie littérature">
+                        <li><a href="../pages_categories/litterature.html#roman" title="sur la même fenêtre : amène à la partie romans de la page littérature">Romans</a></li>
+                        <li><a href="../pages_categories/litterature.html#manga" title="sur la même fenêtre : amène à la partie mangas de la page littérature">Mangas</a></li>
+                    </ul>
+                </div>
+                <li id="menu-musique"><a href="../pages_categories/musique.html"  title="sur la même fenêtre : amène à la page musique">Musique</a></li>
+                <div>
+                    <ul  aria-label="liste des parties de la catégorie musique">
+                        <li><a href="../pages_categories/musique.html#instrument" title="sur la même fenêtre : amène à la partie instruments de la page musique">Instruments</a></li>
+                        <li><a href="../pages_categories/musique.html#materiel" title="sur la même fenêtre : amène à la partie matériels de la page musique">Matériels de musique</a></li>
+                        <li><a href="../pages_categories/musique.html#casque_ecouteur"  title="sur la même fenêtre : amène à la partie casque et écouteurs de la page musique">Casques et écouteurs</a></li>
+                    </ul>
+                </div>
+                <li id="menu-vehicule"><a href="../pages_categories/vehicule.html" title="sur la même fenêtre : amène à la page véhicules">Véhicules</a></li>
+                <div>
+                    <ul  aria-label="liste des parties de la catégorie vehicule">
+                        <li><a href="../pages_categories/vehicule.html#4roues" title="sur la même fenêtre : amène a la partie 4 roues de la page véhicules">Véhicules à 4 roues</a></li>
+                        <li><a href="../pages_categories/vehicule.html#2roues" title="sur la même fenêtre : amène a la partie 2 roues de la page véhicules">Véhicules à 2 roues</a></li>
+                    </ul>
+                </div>
+                <li id="menu-voyage"><a href="../pages_categories/voyage.html" title="sur la même fenêtre : amène a la page voyage">Voyage</a></li>
+                <div>
+                    <ul aria-label="liste des parties de la catégorie voyage">
+                        <li><a href="../pages_categories/voyage.html#bagage" title="sur la même fenêtre : amène à la partie bagages de la page voyage">Bagages</a></li>
+                        <li><a href="../pages_categories/voyage.html#confort" title="sur la même fenêtre : amène à la partie confort de la page voyage">Confort</a></li>
+                        <li><a href="../pages_categories/voyage.html#voyage" title="sur la même fenêtre : amène à la partie voyages de la page voyage">Voyages</a></li>
+                    </ul>
+                </div>
+            </ul>
+        </div>
+        <a href="../page-accueil.html#produitsavant" class="lien_tete"  title="sur la même fenêtre : amène à la partie produits mis en avants de la page d'accueil"> Produits mis en avant</a>
+        <a href="#pied_page" class="lien_tete" title="sur la même fenêtre : amène au pied de la page">Pied de la page</a>
+    </header>
+    <h1>Ecremmoce</h1>
+    <section class="grid-produits-avec-details">
+        <div id="grid-produits-images">
+            <img src="../images/livres/the-sun-and-the-star/livre.png" alt="image du livre the sun and the star vu de profil">
+            <img src="../images/livres/the-sun-and-the-star/tome.jpg" alt="image de la première de couverture du livre the sun and the star">
+            <img src="../images/livres/the-sun-and-the-star/The-Sun-and-the-Star-Summary.jpg" alt="photographie du livre the sun and the star">
+        </div>
+        <div id="grid-produits-titre">
+            The Sun and the Star
+        </div>
+        <div id="grid-produits-boite">
+            <div class="produit_prix"> 16.94€</div>
+            <div class="alerte">
+                Le Produit n'est disponible qu'en anglais 
+            </div>
+            <form action="https://api.web3forms.com/submit" method="post">
+                <div>
+                    <input type="hidden" name="access_key" value="6c5cd6b3-3c7c-4178-aec4-7b80128e0018"/>
+                    <input type="hidden" name="Objet acheté" value="sun_and_the_star"/>
+                </div>
+                <div>
+                    <input type="submit" value="Acheter">
+                </div>
+            </form>
+        </div>
+        <div id="grid-produits-description">
+            Nombre de pages : 480 <br/> <br/>
+            From New York Times #1 best-selling author Rick Riordan and award-winning author Mark Oshiro comes a new standalone adventure featuring two of the most popular characters from the world of Percy Jackson and the Olympians. <br/>
+            <div class="sous_titre">Quatrième de couverture</div>
+            Nico di Angelo is pretty familiar with the realms of death, being the son of Hades and all. So when a desperate voice starts plaguing his dreams, Nico is convinced it's coming from the Underworld and belongs to an old friend - a reformed Titan called Bob. Then an ominous prophecy leaves Nico in no doubt - Bob needs his help and Nico must rescue him.
+            Of course Nico's boyfriend, Will Solace, the son of Apollo (the god of light) insists on joining the quest too. But can will even survive in the darkest part of the world? And what does the prophecy mean when it says that Nico will have to leave something of equal value behind?
+        </div>
+        <div id="grid-produits-desc_supp_img">
+            <div>
+                <div id="double_image">
+                    <img src="../images/livres/the-sun-and-the-star/auteur.jpg" alt="photographie de Mark Oshiro, l'un des auteurs">
+                    <img src="../images/livres/the-sun-and-the-star/auteur2.jpg" alt="photographie de Rick Riordan, l'un des auteurs">
+                </div>
+                <div>
+                    <div class="sous_titre">Biographie des auteurs</div>
+                    Mark Oshiro (they/them) is the author of the young adult books Anger Is a Gift, winner of the 2019 Schneider Family Book Award, and Each of Us A Desert, an NPR Best Book of 2020. Their middle grade books include The Insiders, a Publishers Weekly Best Book of the Year; and You Only Live Once, David Bravo. Mark also contributed a short story to the Star Wars anthology Empire Strikes Back: From a Certain Point of View. <br/><br/>
+                    Rick Riordan (he/him), dubbed 'storyteller of the gods', is the author of five #1 New York Times best-selling middle grade series with millions of copies sold throughout the world, including Percy Jackson and the Olympians, soon to be a live-action series on Disney+. His latest novel is Daughter of the Deep, a modern take on Jules Verne's 20,000 Leagues Under the Sea. Rick is also the publisher of an imprint at Disney-Hyperion, Rick Riordan Presents, dedicated to finding other authors of highly entertaining fiction based on world cultures and mythologies.
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    <section class="container_form_avis">
+        <form action="https://api.web3forms.com/submit" method="post" id="form_avis">
+            <div>
+                <input type="hidden" name="access_key" value="6c5cd6b3-3c7c-4178-aec4-7b80128e0018"/>
+                <input type="hidden" name="Objet acheté" value="the-sun-and-the-star"/>
+            </div>
+            <div>
+                <fieldset >
+                    <legend> Note donnée au produit :</legend>
+                    <div>
+                        <input type="radio" id="5etoile" name="note" value="5 étoiles" checked />
+                        <label for="5etoile">&#x2605 &#x2605 &#x2605 &#x2605 &#x2605</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="4etoile" name="note" value="4 étoiles" />
+                        <label for="4etoile">&#x2605 &#x2605 &#x2605 &#x2605</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="3etoile" name="note" value="3 étoiles"/>
+                        <label for="3etoile">&#x2605 &#x2605 &#x2605</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="2etoile" name="note" value="2 étoiles" />
+                        <label for="2etoile">&#x2605 &#x2605</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="1etoile" name="note" value="1 étoile" />
+                        <label for="1etoile">&#x2605</label>
+                    </div>
+                </fieldset>
+            </div>
+            <div>
+                <label for="avis">Votre avis concernant le produit :</label>
+                <textarea id="avis" name="Avis du Client" cols="40" rows="5" wrap="soft"></textarea>
+            </div>    
+            <div>
+                <input type="submit" value="Partager l'avis">
+            </div>
+        </form>
+    </section>
+    <section class="container_cartes-produits" id="produits-recommandés">
+        <h3>Produits recommandés : </h3>
+        <div class="bloc">
+            <div class="cartes-produits">
+                <img src="../images/livres/Sasaki_et_miyano/tome-1.png" alt="image de la première de couverture du tome 1 de sasaki et miyano">
+                <div class="titre">Collection : Sasaki et Miyano</div>
+                <div class="produit_prix">50.00€</div>
+                <a href="sasaki_miyano.html"  title="Sur la même fenêtre : ouvre la page produit de la collection de manga sasaki et miyano" tabindex="-1"><input type="button" value="Voir Plus de détails"></a>
+            </div>
+
+            <div class="cartes-produits">
+                <img src="../images/musique/ecouteurs-sans-fil/capture (2).png" alt="deux écouteurs bluetooth jabra posés">
+                <div class="titre">Ecouteurs bluetooth Jabra Elite 4</div>
+                <div class="prix">
+                    <div class="ancienprix">100.00€</div>
+                    <div class="nouveauprix"><span>-40%</span><span>60.00€ </span> </div>
+                </div>
+                <a href="ecouteur_sans_fil.html"  title="Sur la même fenêtre : ouvre la page produit des écouteurs Jabra Elite 4" tabindex="-1"><input type="button" value="Voir Plus de détails"></a>
+            </div>
+
+            <div class="cartes-produits">
+                <img src="../images/affaires_voyages/voyage_athenes/athenes (2).png" alt="photographie du Panthéon">
+                <div class="titre">Voyage à Athènes <br/>(1 semaine)</div>
+                <div class="produit_prix">750.00€ / personne</div>
+            
+                <a href="athenes.html"  title="Sur la même fenêtre : ouvre la page produit du voyage à Athènes" tabindex="-1"><input type="button" value="Voir Plus de détails"></a>
+            </div>
+        </div>
+    </section>
+    <footer id="pied_page">
+        <div id="grid_contact">
+            <h2 id="grid_contact_titre"> Nous contacter :</h2>
+            <div>
+                <h3>Par Mail</h3>
+                <div>ecremmoce.contact@gmail.com</div>
+            </div>
+            <div>
+                <h3>Par téléphone</h3>
+                <div>06/50/57/15/57</div>
+            </div>
+        </div>
+        <div>
+            <h2> Une demande ?</h2>
+            <a href="../formulaire_support.html" title="sur la même fenêtre : formulaire de support">Le formulaire de support est fait pour ça</a>
+        </div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css"/>
+    <title>Ecremmoce</title>
+</head>
+<body>
+    <header>
+        <a href="../page-accueil.html#" title="sur la même fenêtre : amène en haut de la page d'accueil">
+            <img src="../images/logo.png" height="80%"/></a>
+        <a href="../page-accueil.html#Catégories" class="lien_tete" id="menu_tete" title="sur la même fenêtre : amène au menu des catégories de la pages d'accueil"> Menu des Catégories</a>
+        <div id="menu_apparu">
+            <ul aria-label="liste des catégories">
+                <li id="menu-hygiene"><a href="../pages_categories/hygiène.html"  title="sur la même fenêtre : amène sur la page hygiene">Hygiène</a></li>
+                <div>                    
+                    <ul aria-label="liste des parties de la catégorie hygiene">
+                    <li><a href="../pages_categories/hygiène.html#gel-douche_shampoing" title="sur la même fenêtre : amène a la partie gel et shampoing de la page hygiène">Gel douche et Shampoing</a></li>
+                    <li><a href="../pages_categories/hygiène.html#rasage" title="sur la même fenêtre : amène à la partie rasage de la page hygiène">Rasage</a></li>
+                    </ul>
+                </div>
+                <li id="menu-jeux-video"><a href="../pages_categories/jeux_videos.html" title="sur la même fenêtre : amène sur la page jeux vidéos">Jeux Vidéo</a></li>
+                <div>
+                    <ul aria-label="liste des parties de la catégorie jeux jeux videos">
+                        <li><a href="../pages_categories/jeux_videos.html#switch" title="sur la même fenêtre : amène à la partie switch de la page jeux vidéos">Switch</a></li>
+                        <li><a href="../pages_categories/jeux_videos.html#xbox" title="sur la même fenêtre : amène à la partie xbox de la page jeux vidéos">Xbox</a></li>
+                        <li><a href="../pages_categories/jeux_videos.html#ps" title="sur la même fenêtre : amène à la partie playstation de la page jeux vidéos">Playstation</a></li>
+                    </ul>
+                </div>
+                <li id="menu-litterature"><a href="../pages_categories/litterature.html" title="sur la même fenêtre : amène a la page littérature">Littérature</a></li>
+                <div>
+                    <ul aria-label="liste des parties de la catégorie littérature">
+                        <li><a href="../pages_categories/litterature.html#roman" title="sur la même fenêtre : amène à la partie romans de la page littérature">Romans</a></li>
+                        <li><a href="../pages_categories/litterature.html#manga" title="sur la même fenêtre : amène à la partie mangas de la page littérature">Mangas</a></li>
+                    </ul>
+                </div>
+                <li id="menu-musique"><a href="../pages_categories/musique.html"  title="sur la même fenêtre : amène à la page musique">Musique</a></li>
+                <div>
+                    <ul  aria-label="liste des parties de la catégorie musique">
+                        <li><a href="../pages_categories/musique.html#instrument" title="sur la même fenêtre : amène à la partie instruments de la page musique">Instruments</a></li>
+                        <li><a href="../pages_categories/musique.html#materiel" title="sur la même fenêtre : amène à la partie matériels de la page musique">Matériels de musique</a></li>
+                        <li><a href="../pages_categories/musique.html#casque_ecouteur"  title="sur la même fenêtre : amène à la partie casque et écouteurs de la page musique">Casques et écouteurs</a></li>
+                    </ul>
+                </div>
+                <li id="menu-vehicule"><a href="../pages_categories/vehicule.html" title="sur la même fenêtre : amène à la page véhicules">Véhicules</a></li>
+                <div>
+                    <ul  aria-label="liste des parties de la catégorie vehicule">
+                        <li><a href="../pages_categories/vehicule.html#4roues" title="sur la même fenêtre : amène a la partie 4 roues de la page véhicules">Véhicules à 4 roues</a></li>
+                        <li><a href="../pages_categories/vehicule.html#2roues" title="sur la même fenêtre : amène a la partie 2 roues de la page véhicules">Véhicules à 2 roues</a></li>
+                    </ul>
+                </div>
+                <li id="menu-voyage"><a href="../pages_categories/voyage.html" title="sur la même fenêtre : amène a la page voyage">Voyage</a></li>
+                <div>
+                    <ul aria-label="liste des parties de la catégorie voyage">
+                        <li><a href="../pages_categories/voyage.html#bagage" title="sur la même fenêtre : amène à la partie bagages de la page voyage">Bagages</a></li>
+                        <li><a href="../pages_categories/voyage.html#confort" title="sur la même fenêtre : amène à la partie confort de la page voyage">Confort</a></li>
+                        <li><a href="../pages_categories/voyage.html#voyage" title="sur la même fenêtre : amène à la partie voyages de la page voyage">Voyages</a></li>
+                    </ul>
+                </div>
+            </ul>
+        </div>
+        <a href="../page-accueil.html#produitsavant" class="lien_tete"  title="sur la même fenêtre : amène à la partie produits mis en avants de la page d'accueil"> Produits mis en avant</a>
+        <a href="#pied_page" class="lien_tete" title="sur la même fenêtre : amène au pied de la page">Pied de la page</a>
+    </header>
+    <h1>Ecremmoce</h1>
+    <section class="grid-produits-sans-details">
+        <div id="grid-produits-images">
+            <img src="../images/jeux-video/Xbox-serie-x/capture (1).png" alt="console xbox série x avec une manette vue de face">
+            <img src="../images/jeux-video/Xbox-serie-x/capture (2).png" alt="console xbox série x vue de dos avec les ports USB HDMI...">
+            <img src="../images/jeux-video/Xbox-serie-x/console.jpg" alt="console xbox série x avec une manette vue de profil">
+        </div>
+        <div id="grid-produits-titre">
+            Xbox série X
+        </div>
+        <div id="grid-produits-boite">
+            <div class="produit_prix indisponible">550.00€</div>
+            <div class="pas_dispo">
+                Le Produit est temporairement indisponible
+            </div>
+        </div>
+        <div id="grid-produits-description">
+            <div id="a_propos">A propos de ce produit</div>
+            Xbox Series X : <br/>
+
+            <span class="bold">4K / 8K HDR :</span> - - Plongez dans des univers ultra détaillés avec une résolution native 4K HDR . Compatible avec la technologie 8K HDR en connectant votre Xbox Series X à votre téléviseur 8K pour jouer dans les meilleures conditions grâce à la mise à l'échelle (4320p)
+            <br/>
+            <span class="bold">120 FPS :</span>- La Xbox Series X permet un rendu encore plus fluide et dynamique allant jusqu'à 120 images par seconde (compatible Fortnite, Call of Duty: Warzone, Rocket League etc)
+            <br/>
+            <span class="bold">Disque SSD 1To :</span> - Profitez du disque SSD de 1To pour des chargements quasi-instantanés
+            <br/>
+            <span class="bold">Raytracing :</span> - Encore plus d'immersion avec le Raytracing qui permet d'afficher des lumières et reflets réalistes, pour des environnements plus vrais que nature sur les jeux Xbox compatibles
+            <br/>
+            <span class="bold">Audio spatial 3D :</span> - Découvrez la nouvelle génération de technologie audio qui vous placent au cœur de votre expérience de jeu avec le Dolby Atmos pour les jeux compatibles (Forza Horizon 4, Gears5, etc)
+            <br/>
+            <span class="bold">100% Rétrocompatible :</span> - Profitez d'une très large sélection de vos anciens jeux Xbox (100% des jeux Xbox One, des centaines de jeux Xbox 360 & Xbox originale) directement sur votre Xbox Series X
+
+        </div>
+        
+    </section>
+    <section class="container_form_avis">
+        <form action="https://api.web3forms.com/submit" method="post" id="form_avis">
+            <div>
+                <input type="hidden" name="access_key" value="6c5cd6b3-3c7c-4178-aec4-7b80128e0018"/>
+                <input type="hidden" name="Objet acheté" value="Xbox-serie-x"/>
+            </div>
+            <div>
+                <fieldset >
+                    <legend> Note donnée au produit :</legend>
+                    <div>
+                        <input type="radio" id="5etoile" name="note" value="5 étoiles" checked />
+                        <label for="5etoile">&#x2605 &#x2605 &#x2605 &#x2605 &#x2605</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="4etoile" name="note" value="4 étoiles" />
+                        <label for="4etoile">&#x2605 &#x2605 &#x2605 &#x2605</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="3etoile" name="note" value="3 étoiles"/>
+                        <label for="3etoile">&#x2605 &#x2605 &#x2605</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="2etoile" name="note" value="2 étoiles" />
+                        <label for="2etoile">&#x2605 &#x2605</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="1etoile" name="note" value="1 étoile" />
+                        <label for="1etoile">&#x2605</label>
+                    </div>
+                </fieldset>
+            </div>
+            <div>
+                <label for="avis">Votre avis concernant le produit :</label>
+                <textarea id="avis" name="Avis du Client" cols="40" rows="5" wrap="soft"></textarea>
+            </div>    
+            <div>
+                <input type="submit" value="Partager l'avis">
+            </div>
+        </form>
+    </section>
+    <section class="container_cartes-produits" id="produits-recommandés">
+        <h3>Produits recommandés : </h3>
+        <div class="bloc">
+            <div class="cartes-produits">
+                <img src="../images/jeux-video/Xbox-serie-s/capture.png" alt="console xbox série s avec une manette vue de profil">
+                <div class="titre">Xbox série S</div>
+                <div class="produit_prix">250.00€</div>
+                <a href="xbox_s.html"  title="Sur la même fenêtre : ouvre la page produit  de la Xbox série S" tabindex="-1"><input type="button" value="Voir Plus de détails"></a>
+            </div>
+
+            <div class="cartes-produits">
+                <img src="../images/hygiene/gel_douche/gel_douche (1).png" alt="image du gel douche le petit marseillais au lait de face">
+                <div class="titre">Gel Douche le petit marseillais</div>
+                <div class="produit_prix">2.00€</div>
+                <a href="gel_douche.html"  title="Sur la même fenêtre : ouvre la page produit du gel douche le petit marseillais" tabindex="-1"><input type="button" value="Voir Plus de détails"></a>
+            </div>
+
+            <div class="cartes-produits">
+                <img src="../images/jeux-video/xbox-jeu/capture (1).png" alt="boite de cartouche du jeu Forza sur xbox">
+                <div class="titre">Forza sur Xbox</div>
+                <div class="produit_prix">59.99€</div>
+                <a href="forza.html"  title="Sur la même fenêtre : ouvre la page produit du jeu forza sur xbox" tabindex="-1"><input type="button" value="Voir Plus de détails"></a>
+            </div>
+        </div>
+    </section>
+    <footer id="pied_page">
+        <div id="grid_contact">
+            <h2 id="grid_contact_titre"> Nous contacter :</h2>
+            <div>
+                <h3>Par Mail</h3>
+                <div>ecremmoce.contact@gmail.com</div>
+            </div>
+            <div>
+                <h3>Par téléphone</h3>
+                <div>06/50/57/15/57</div>
+            </div>
+        </div>
+        <div>
+            <h2> Une demande ?</h2>
+            <a href="../formulaire_support.html" title="sur la même fenêtre : formulaire de support">Le formulaire de support est fait pour ça</a>
+        </div>
+    </footer>
+</body>
+</html>

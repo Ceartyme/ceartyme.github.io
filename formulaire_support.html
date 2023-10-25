@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <title>Ecremmoce</title>
+</head>
+<body>
+    <header>
+        <a href="page-accueil.html#">
+            <img src="images/logo.png" height="80%"/></a>
+        <a href="page-accueil.html#Catégories" class="lien_tete" id="menu_tete"> Menu des Catégories</a>
+        <div id="menu_apparu">
+            <ul aria-label="liste des catégories">
+                <li id="menu-hygiene"><a href="pages_categories/hygiène.html">Hygiène</a></li>
+                <div>                    
+                    <ul aria-label="liste des parties de la catégorie hygiene">
+                    <li><a href="pages_categories/hygiène.html#gel-douche_shampoing">Gel douche et Shampoing</a></li>
+                    <li><a href="pages_categories/hygiène.html#rasage">Rasage</a></li>
+                    </ul>
+                </div>
+                <li id="menu-jeux-video"><a href="pages_categories/jeux_videos.html">Jeux Vidéo</a></li>
+                <div>
+                    <ul aria-label="liste des parties de la catégorie jeux vidéos">
+                        <li><a href="pages_categories/jeux_videos.html#switch">Switch</a></li>
+                        <li><a href="pages_categories/jeux_videos.html#xbox">Xbox</a></li>
+                        <li><a href="pages_categories/jeux_videos.html#ps">Playstation</a></li>
+                    </ul>
+                </div>
+                <li id="menu-litterature"><a href="pages_categories/litterature.html">Littérature</a></li>
+                <div>
+                    <ul aria-label="liste des parties de la catégorie litterature">
+                        <li><a href="pages_categories/litterature.html#roman">Romans</a></li>
+                        <li><a href="pages_categories/litterature.html#manga">Mangas</a></li>
+                    </ul>
+                </div>
+                <li id="menu-musique"><a href="pages_categories/musique.html">Musique</a></li>
+                <div>
+                    <ul aria-label="liste des parties de la catégorie musique">
+                        <li><a href="pages_categories/musique.html#instrument">Instruments</a></li>
+                        <li><a href="pages_categories/musique.html#materiel">Matériels de musique</a></li>
+                        <li><a href="pages_categories/musique.html#casque_ecouteur">Casques et écouteurs</a></li>
+                    </ul>
+                </div>
+                <li id="menu-vehicule"><a href="pages_categories/vehicule.html">Véhicules</a></li>
+                <div>
+                    <ul aria-label="liste des parties de la catégorie vehicule">
+                        <li><a href="pages_categories/vehicule.html#4roues">Véhicules à 4 roues</a></li>
+                        <li><a href="pages_categories/vehicule.html#2roues">Véhicules à 2 roues</a></li>
+                    </ul>
+                </div>
+                <li id="menu-voyage"><a href="pages_categories/voyage.html">Voyage</a></li>
+                <div>
+                    <ul aria-label="liste des parties de la catégorie voyage">
+                        <li><a href="pages_categories/voyage.html#bagage">Bagages</a></li>
+                        <li><a href="pages_categories/voyage.html#confort">Confort</a></li>
+                        <li><a href="pages_categories/voyage.html#voyage">Voyages</a></li>
+                    </ul>
+                </div>
+            </ul>
+        </div>
+        <a href="page-accueil.html#produitsavant" class="lien_tete"> Produits mis en avant</a>
+        <a href="#pied_page_formulaire" class="lien_tete" >Pied de la page</a>
+    </header>
+    <h1>Ecremmoce</h1>
+    <section id="formulaire">
+        <h2 id="titre_formulaire">Formulaire de support :</h2>
+        <form action="https://api.web3forms.com/submit" method="post" id="form_support">
+            <div>
+                <input type="hidden" name="access_key" value="6c5cd6b3-3c7c-4178-aec4-7b80128e0018">
+            </div>
+            <div>
+                <fieldset>
+                    <legend> Genre :</legend>
+                    <div>
+                    <input type="radio" id="masc" name="genre" value="Masculin" />
+                    <label for="masc">Masculin</label>
+                    </div>
+                    <div>
+                    <input type="radio" id="fem" name="genre" value="Féminin" />
+                    <label for="fem">Féminin</label>
+                    </div>
+                    <div>
+                    <input type="radio" id="neutre" name="genre" value="Neutre"/>
+                    <label for="neutre">Neutre</label>
+                    </div>
+                    <div>
+                    <input type="radio" id="non-renseigné" name="genre" value="Ne souhaite pas répondre" checked/>
+                    <label for="non-renseigné">Ne souhaite pas répondre</label>
+                    </div>
+                </fieldset>
+            </div>
+            <div>
+                <label for="surname">Nom :</label>
+                <input type="text" id="surname" name="Surname" placeholder="Nom" required autocomplete="family-name">
+                <label for="surname"></label>
+            </div>
+            <div>
+                <label for="firstname">Prénom :</label>
+                <input type="text" id="firstname" name="Firstname" placeholder="Prénom" autocomplete="given-name" required>
+                <label for="firstname"></label>
+            </div>
+            <div>
+                <label for="numero_tel">Numéro de téléphone :</label>
+                <input id="numero_tel" type="tel" name="Numéro" placeholder="xx/xx/xx/xx/xx" autocomplete="tel" required/>
+                <label for="numero_tel"></label>
+            </div>
+            <div>
+                <label for="mail" >Adresse mail :</label>
+                <input id="mail" type="email" name="Email" placeholder="exemple@exemple.com" autocomplete="email" required/>
+                <label for="mail"></label>
+            </div>
+            <div>
+                <label for="country" >Pays :</label>
+                <input id="country" type="text" name="Country" placeholder="Pays" autocomplete="country-name" />
+                <label for="country"></label>
+            </div>            
+            <div>
+                <input  id="recontact" type="checkbox" name="checkbox_recontact" value="accepte d'être recontacté" required/>
+                <label for="recontact">J'accepte d'être recontacté(e)</label>
+            </div>
+            <div>
+                <label for="message">Laissez nous un message pour comprendre pourquoi vous avez voulu contacter le support :</label>
+                <textarea id="message" name="Raison du contact du support " cols="35" wrap="soft"></textarea>
+            </div>
+            <div>
+                <input type="submit" value="Envoyer"/>
+            </div>
+        </form>
+    </section>
+    <footer id="pied_page_formulaire">
+        <div id="grid_contact">
+            <h2 id="grid_contact_titre"> Nous contacter :</h2>
+            <div>
+                <h3>Par Mail</h3>
+                <div>ecremmoce.contact@gmail.com</div>
+            </div>
+            <div>
+                <h3>Par téléphone</h3>
+                <div>06/50/57/15/57</div>
+            </div>
+        </div>
+
+    </footer>
+</body>
+</html>
